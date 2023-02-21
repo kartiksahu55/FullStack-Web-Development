@@ -1,0 +1,108 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("./assets/pexels-maxyne-barcel-10402282 1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+/* Navigation Menu Starts*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    margin: 20px 0;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 194, 51);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Navigation Order Button */
+nav button {
+    padding: 5px 30px;
+    color: #fff;
+    background-color: rgb(255, 81, 95);
+    border: 1px solid rgb(255, 81, 95);
+    font-size: 15px;
+}
+
+nav button:hover {
+    color: rgb(255, 81, 95);
+    background-color: #fff;
+    border: 3px solid rgb(255, 81, 95);
+    font-size: 15px;
+}
+
+/* Hero Section Starts */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 3% auto;
+
+
+}
+
+section h1 {
+    color: rgb(255,194,51);
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+}
+
+section button{
+    color: #fff;
+    background-color: rgb(255,81,95);
+    border: 1px solid rgb(255,81,95);
+    padding: 15px 45px;
+    font-size: 20px;
+}
+section button:hover{
+    color: rgb(255,81,95);
+    background-color: #fff;
+    border: 3px solid rgb(255,81,95);
+}
+
+/* Footer Section Starts */
+footer{
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+}
+footer img{
+    width: 150px;
+}
