@@ -1,0 +1,129 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body {
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+} */
+
+/* Navigation Menu */
+/* --------------- */
+header {
+    background-color: #000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+nav .leftNav {
+    display: flex;
+    align-items: center;
+}
+
+nav .leftNav img {
+    width: 200px;
+    border-right: 1px solid #fff;
+    padding: 0 40px;
+}
+
+nav .leftNav ul {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+nav .leftNav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav .leftNav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav .leftNav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(165, 13, 176);
+    font-weight: bold;
+}
+
+nav .rightNav button {
+    cursor: pointer;
+    background-color: rgb(165, 13, 176);
+    color: #fff;
+    padding: 4px 25px;
+    border: 5px solid rgb(165, 13, 176);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav .rightNav button:hover{
+    background-color: #fff;
+    color: rgb(165, 13, 176);
+    font-weight: 800;
+}
+
+/* Hero Section */
+/* ------------ */
+section{
+        background-image: url("./assets/bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 115%;
+        background-attachment: fixed;
+        height: 90vh;
+    }
+section .content{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section h1{
+    width: 50%;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 900;
+}
+section .para{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+section .heroButton{
+    margin-top: 30px ;
+}
+section .heroButton button{
+    cursor: pointer;
+    background-color: rgb(185,14,197);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 5px solid rgb(185,14,197);
+    border-radius: 10px;
+}
+section .heroButton button:hover{
+    background-color: #fff;
+    color: rgb(185,14,197);
+    font-weight: 700;
+}
