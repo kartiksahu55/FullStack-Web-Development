@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    overflow: hidden;
+}
+body{
+    background-color: #F0F4F5;
+
+}
+
+/* Navigation Menu */
+/* --------------- */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 100px;
+    padding: 20px 20px;
+    height: 12vh;
+}
+
+nav .logo {
+    height: 60px;
+    padding: 5px 10px;
+}
+
+nav .navMenu {
+    display: flex;
+    align-items: center;
+}
+
+nav .navMenu li {
+    list-style: none;
+    margin: 5px;
+    padding: 10px 20px;
+}
+
+nav .navMenu a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav .navMenu a:hover {
+    color: #20BC7E;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* Main Body */
+/* --------- */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 88vh;
+}
+main .container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+main h1{
+    color: #20BC7E;
+    padding-bottom: 20px;
+}
+main .container1 p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0px;
+}
+main .container2{
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+}
+main .container2 .box{
+    height: 90px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 5px;
+    box-shadow: 1px 1px 10px 3px #505050;
+}
+main .container2 p{
+    color: #20BC7E;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+main .container2 span{
+    font-size: 20px;
+}

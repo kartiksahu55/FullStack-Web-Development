@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    overflow: hidden;
+}
+body{
+    background-color: #F0F4F5;
+
+}
+
+/* Navigation Menu */
+/* --------------- */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 100px;
+    padding: 20px 20px;
+    height: 12vh;
+}
+
+nav .logo {
+    height: 60px;
+    padding: 5px 10px;
+}
+
+nav .navMenu {
+    display: flex;
+    align-items: center;
+}
+
+nav .navMenu li {
+    list-style: none;
+    margin: 5px;
+    padding: 10px 20px;
+}
+
+nav .navMenu a {
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav .navMenu a:hover {
+    color: #20BC7E;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* Main Body */
+/* --------- */
+main {
+    display: flex;
+    align-items: center;
+    height: 88vh;
+    margin: 10px 100px;
+    padding: 20px 20px;
+}
+
+main .leftBody {
+    width: 60%;
+    padding: 5px 8% 5px 5px;
+}
+
+main .leftBody h1 {
+    font-size: 70px;
+}
+
+main .leftBody p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #696a6b;
+}
+
+
+main .stethoscope {
+    width: 40%;
+    position: absolute;
+    width: 40%;
+    z-index: -1;
+    top: 165px;
+    left: 400px;
+}
+main .leftBody button {
+    background-color: #20BC7E;
+    color: #fff;
+    padding: 0 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    border: 1pc solid #20BC7E;
+    border-radius: 40px;
+    cursor: pointer;
+}
+main .leftBody button:hover {
+    background-color: #F0F4F5;
+    color: #20BC7E;
+}
+main .bottomAngle{
+    height: 25px;
+    position: relative;
+    bottom: 40px;
+    left: 350px;
+}
+main .mouse{
+    height: 35px;
+    position: relative;
+    bottom: 0;
+    left: 380px;
+}
+
+
+main .rightBody {
+}
+
+main .rightBody .doctor {
+    position: absolute;
+    height: 700px;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+main .rightBody .yellowBox {
+    position: absolute;
+    height: 500px;
+    right: 0;
+    bottom: 0;
+}
+main .rightBody .greenBox {
+    position: absolute;
+    height: 550px;
+    right: 0px;
+    bottom: 0px;
+}

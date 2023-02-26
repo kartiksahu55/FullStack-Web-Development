@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    overflow: hidden;
+}
+body{
+    background-color: #F0F4F5;
+
+}
+
+/* Navigation Menu */
+/* --------------- */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 100px;
+    padding: 20px 20px;
+    height: 12vh;
+}
+
+nav .logo {
+    height: 60px;
+    padding: 5px 10px;
+}
+
+nav .navMenu {
+    display: flex;
+    align-items: center;
+}
+
+nav .navMenu li {
+    list-style: none;
+    margin: 5px;
+    padding: 10px 20px;
+}
+
+nav .navMenu a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav .navMenu a:hover {
+    color: #20BC7E;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* Main Body */
+/* --------- */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+main form{
+    box-shadow: 0 0 10px 1px #000;
+    height: 440px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+main form h1{
+    font-size: 30px;
+}
+main form div{
+    width: 90%;
+    margin: 5px;
+}
+main form div label{
+    font-size: 18px;
+    font-weight: 500;
+}
+main form div input, textarea, button{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: transparent;
+    border-radius: 10px;
+    outline: none;
+}
+main form div textarea{
+    resize: none;
+}
+main form div::placeholder{
+    font-size: 12px;
+}
+main form button{
+    background-color: #20BC7E;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+}
