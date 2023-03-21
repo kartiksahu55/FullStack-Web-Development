@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#oneClickBtn{
+    width: 25%;
+    height: 10%;
+    font-size: 22px;
+    background-color: aquamarine;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 black;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
