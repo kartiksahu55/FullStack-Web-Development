@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    display: none;
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(242, 242, 242);
+    box-shadow: 0 0 5px 0;
+    border: none;
+}
+
+p{
+    margin-top: 20px;
+}
+
+#btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 8px 1px ;
+    font-size: 18px;
+    position: absolute;
+    top:60px;
+}
+#btn:active{
+    box-shadow:inset 0 0 5px 0 ;
+    background-color: antiquewhite;
+}

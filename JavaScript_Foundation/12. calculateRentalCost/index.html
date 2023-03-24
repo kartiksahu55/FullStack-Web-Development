@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculate Car Rental Cost</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Calculate Car Rental Cost</h2>
+        <div class="inputBox">
+            <label for="days">Total No. Days:</label>
+            <input type="number" title="days" id="totalDays"><br>
+            <label for="rental">Rental Cost</label>
+            <input type="text" title="rental" id="rentalCost" value="">
+            <!-- <select onselect="" name="rentalCost" id="rentalCost" title="rentalCost">
+                <option value="Economy">Economy = Rs. 4000/- per day.</option>
+                <option value="Midsize">Midsize = Rs. 10,000/- per day.</option>
+                <option value="Luxury">Luxury = Rs. 20,000/- per day.</option>
+            </select>
+        </div> -->
+        <p id="display">display</p>
+
+        <button onclick="finaltotalCost()">Click Me</button>
+    </div>    
+
+
+    <!-- javaScript -->
+    <script src="./script.js"></script>
+</body>
+</html>

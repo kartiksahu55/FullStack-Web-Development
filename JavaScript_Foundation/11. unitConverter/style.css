@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.box {
+    width: 600px;
+    height: 100px;
+    box-shadow: 0 0 10px 0;
+    padding: 15px 15px 25px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(68, 203, 203);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+
+.degree {
+    box-shadow: 0 0 10px 0 rgb(39, 107, 114);
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.degree input {
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+}
+
+.degree input:focus {
+    font-size: 20px;
+}
+
+

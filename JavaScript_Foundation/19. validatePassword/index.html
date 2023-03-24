@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Password Validator</title>
+</head>
+<body>
+    <h2>Password Validator</h2>
+    <form onsubmit="validatePass()">
+        <label for="email">Email Address</label>
+        <input type="email" title="email" name="" class="input" id="userEmail" value="" required placeholder='Email should contain "@"'>
+        <label for="pass">Password</label>
+        <input type="password" title="pass" name="" class="input" id="userPass" value="" required placeholder="Min. length 8 characters."><br>
+        <input type="button" value="Submit" onclick="validatePass()" class="submit"><br>
+    </form>
+    <p id="message">---</p>
+    
+
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
+</body>
+</html>

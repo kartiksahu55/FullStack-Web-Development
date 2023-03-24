@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+.container {
+    background-color: rgb(63, 246, 228);
+    min-height: 50px;
+    width: 300px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0.5px rgb(130, 130, 130);
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: rgb(70, 70, 70);
+}
+
+#ul {
+    list-style: none;
+}
+
+#ul li:before {
+    content: '✓ ';
+    color: rgb(63, 246, 228);
+    font-weight: 600;
+    background-color: #fff;
+    font-size: 14px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+#ul li {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#input {
+    padding: 8px 10px;
+    font-size: 16px;
+    width: 93%;
+    box-shadow: 0 0 15px 0.5px rgb(130, 130, 130);
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+#input:focus {
+    box-shadow: inset 0 0 5px 0 rgb(0, 0, 0), inset 0 0 5px 1px rgb(255, 255, 255);
+}
+
+.btnBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    /* display: block; */
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(93, 93, 93);
+    background-color: rgb(255, 255, 0);
+    box-shadow: -1px -1px 5px 0 rgb(0, 0, 0), 1px 1px 5px 1px rgb(255, 255, 255);
+
+}
+
+button:active {
+    box-shadow: inset -1px -1px 5px 0 rgb(0, 0, 0), inset 1px 1px 5px 1px rgb(255, 255, 255);
+
+}
+

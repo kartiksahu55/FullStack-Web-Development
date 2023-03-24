@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Insert Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Link Style Sheet -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Unit Converter</title>
+</head>
+
+<body>
+    <h2>Celsius To Fahrenheit Converter</h2>
+    <div class="box">
+        <div class="degree">
+            <input type="number" value="" id="celsius" placeholder="Celsius" oninput="celsiusToFahrenheit()">
+            <p>Degree Celsius(&#176C)</p>
+        </div>
+        <h1>=</h1>
+        <div class="degree">
+            <input type="number" id="fahrenheit" value="" readonly placeholder="Fahrenheit">
+            <p>Degree Fahrenheit(&#176F)</p>
+        </div>
+    </div>
+
+    <!-- javaScript -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
