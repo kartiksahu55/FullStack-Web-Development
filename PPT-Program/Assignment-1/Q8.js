@@ -1,4 +1,6 @@
-function findErrNums(nums) {
+const nums = [1, 2, 2, 4];
+
+const findErrNums = (nums) => {
   nums.sort((a, b) => a - b);
   let duplicate = -1;
   let missing = 1;
@@ -18,6 +20,5 @@ function findErrNums(nums) {
   return [duplicate, missing];
 }
 
-const nums = [1, 2, 2, 4];
 const result = findErrNums(nums);
 console.log(result);
