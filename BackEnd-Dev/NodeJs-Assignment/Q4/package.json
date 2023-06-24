@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-assignment",
+  "version": "1.0.0",
+  "description": "Solving First nodeJs Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kartik Chandra Sahu",
+  "license": "ISC"
+}
